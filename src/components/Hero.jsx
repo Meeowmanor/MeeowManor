@@ -21,7 +21,7 @@ function Hero() {
           <div className="hero__logo-wrap">
             <img
               src={logo}
-              alt="Meow Manor official badge logo with a cat reading a book"
+              alt="The Meeow Manor official badge logo with a cat reading a book"
               className="hero__logo"
               width="320"
               height="420"

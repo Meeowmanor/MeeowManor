@@ -1,6 +1,6 @@
-# Meow Manor
+# The Meeow Manor
 
-A complete, modern, responsive static website for **Meow Manor** — a warm, home-based cat boarding business.
+A complete, modern, responsive static website for **The Meeow Manor** — a warm, home-based cat boarding business.
 
 Built with React and Vite so it is easy to develop locally and deploy as plain static files to GoDaddy, cPanel, Netlify, Vercel, or any static host. No backend or database is required.
 
@@ -8,7 +8,7 @@ Built with React and Vite so it is easy to develop locally and deploy as plain s
 
 ## Project Overview
 
-Meow Manor helps pet parents enquire about:
+The Meeow Manor helps pet parents enquire about:
 
 - Standard, private, daycare, and hourly stay plans
 - Optional meal plans
@@ -203,4 +203,4 @@ Full step-by-step instructions are in [`HOSTING_GUIDE.md`](./HOSTING_GUIDE.md).
 
 ## Licence / Notes
 
-This project is a static marketing and enquiry website for Meow Manor. Booking confirmation happens through WhatsApp conversation with the business owner, not through an automated online checkout.
+This project is a static marketing and enquiry website for The Meeow Manor. Booking confirmation happens through WhatsApp conversation with the business owner, not through an automated online checkout.

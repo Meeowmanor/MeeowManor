@@ -20,7 +20,7 @@ function Header() {
         <a href="#home" className="brand" onClick={closeMenu}>
           <img
             src={logo}
-            alt="Meow Manor logo"
+            alt="The Meeow Manor logo"
             className="brand__logo"
             width="40"
             height="40"

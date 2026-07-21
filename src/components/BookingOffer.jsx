@@ -8,7 +8,7 @@ function BookingOffer() {
         <SectionHeading
           eyebrow="Welcome Gift"
           title="First Booking Offer"
-          subtitle="A warm welcome for first-time Meow Manor guests."
+          subtitle="A warm welcome for first-time guests at The Meeow Manor."
         />
         <article className="offer-card">
           <div className="offer-card__top">

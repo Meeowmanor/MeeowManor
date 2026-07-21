@@ -21,7 +21,7 @@ function getContactValue(type) {
   switch (type) {
     case 'whatsapp': {
       const defaultMessage = encodeURIComponent(
-        "Hi! 👋 I'm interested in boarding my cat at Meow Manor.",
+        `Hi! 👋 I'm interested in boarding my cat at ${businessConfig.businessName}.`,
       )
       return {
         href: `https://wa.me/${businessConfig.whatsappNumber}?text=${defaultMessage}`,
@@ -38,12 +38,12 @@ function getContactValue(type) {
     case 'email':
       return {
         href: `mailto:${businessConfig.email}`,
-        text: 'Email us',
+        text: 'Write to us on email',
       }
     case 'instagram':
       return {
         href: businessConfig.instagramUrl,
-        text: 'Follow on Instagram',
+        text: 'Follow us on Instagram',
       }
     case 'location':
       return {

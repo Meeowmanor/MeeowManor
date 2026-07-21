@@ -1,4 +1,4 @@
-# Meow Manor Hosting Guide
+# The Meeow Manor Hosting Guide
 
 This website is a static frontend. After building, you only need to upload the generated files. No Node.js server, database, or backend is required on GoDaddy shared hosting.
 

@@ -9,7 +9,7 @@ export const navLinks = [
 ]
 
 export const heroContent = {
-  heading: 'Meow Manor',
+  heading: 'The Meeow Manor',
   tagline: 'Where every cat feels right at home',
   description:
     'Safe. Peaceful. Cage-free or isolated staycation for your cat in our secure and spacious 2BHK home.',
@@ -23,7 +23,7 @@ export const bookingOffer = {
   title: '🎉 First Booking Offer',
   highlight: '₹100 OFF your first stay!',
   terms: [
-    '✨ Exclusive for new Meow Manor guests',
+    '✨ Exclusive for new guests at The Meeow Manor',
     '🏷️ Valid only with a referral code',
     '🔖 One-time use per customer',
     '🍽️ Discount applies to boarding only. Meal plans are charged separately.',
@@ -114,7 +114,7 @@ export const benefits = [
 export const ourStory = {
   title: 'Meet Loki & Veera 🐾',
   intro:
-    'Loki and Veera, two tabby brothers born on 28th October and adopted on 8th March, are the inspiration behind Meow Manor.',
+    'Loki and Veera, two tabby brothers born on 28th October and adopted on 8th March, are the inspiration behind The Meeow Manor.',
   closing: 'Every cat we welcome is cared for with the love these two inspired.',
   names: 'Loki & Veera',
   slides: [
@@ -287,7 +287,7 @@ export const contactCards = [
   {
     id: 'instagram',
     label: 'Instagram',
-    description: 'Follow life at Meow Manor',
+    description: 'Follow life at The Meeow Manor',
     type: 'instagram',
   },
   {
