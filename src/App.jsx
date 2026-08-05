@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Benefits from './components/Benefits'
 import BookingForm from './components/BookingForm'
 import BookingOffer from './components/BookingOffer'
@@ -74,6 +75,7 @@ function App() {
         <ContactSection />
       </main>
       <Footer />
+      <Analytics />
     </>
   )
 }
