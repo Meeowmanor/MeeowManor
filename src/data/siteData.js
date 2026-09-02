@@ -45,7 +45,7 @@ export const stayPlans = [
     id: 'private-stay',
     icon: '🌟',
     name: 'Private Stay',
-    description: 'Isolated Tent/Cage',
+    description: 'Isolated Room',
     price: '₹649',
     unit: 'per Night',
     benefit: 'Quiet, private space for cats who prefer their own room',
@@ -66,12 +66,22 @@ export const stayPlans = [
     icon: '⏰',
     name: 'Hourly Stay',
     description: 'Flexible short stays',
-    price: '₹99',
+    price: '₹100',
     unit: 'per Hour',
     benefit: 'Complimentary treat included',
     featured: false,
   },
 ]
+
+export const stayPolicies = {
+  discountsTitle: 'Long Stay Discounts',
+  discounts: [
+    '🐾 10+ day stay — 5% discount',
+    '🐾 25+ day stay — 10% discount',
+  ],
+  advancePayment:
+    'For stays longer than one week, an advance payment equivalent to 2 days is required.',
+}
 
 export const benefits = [
   {
@@ -255,7 +265,7 @@ export const bookingFields = {
     { value: 'Standard Stay', label: 'Standard Stay — ₹579/night' },
     { value: 'Private Stay', label: 'Private Stay — ₹649/night' },
     { value: 'Day Care', label: 'Day Care — ₹399' },
-    { value: 'Hourly Stay', label: 'Hourly Stay — ₹99/hour' },
+    { value: 'Hourly Stay', label: 'Hourly Stay — ₹100/hour' },
   ],
   mealPlanOptions: [
     { value: '', label: 'None / Bringing own food' },

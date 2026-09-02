@@ -1,4 +1,4 @@
-import { stayPlans } from '../data/siteData'
+import { stayPlans, stayPolicies } from '../data/siteData'
 import PricingCard from './PricingCard'
 import SectionHeading from './SectionHeading'
 
@@ -26,6 +26,15 @@ function StayPlans({ onSelectPlan }) {
               onSelect={() => onSelectPlan(plan.name)}
             />
           ))}
+        </div>
+        <div className="info-panel stay-policies">
+          <h3 className="stay-policies__title">{stayPolicies.discountsTitle}</h3>
+          <ul>
+            {stayPolicies.discounts.map((discount) => (
+              <li key={discount}>{discount}</li>
+            ))}
+          </ul>
+          <p className="info-highlight">{stayPolicies.advancePayment}</p>
         </div>
       </div>
     </section>

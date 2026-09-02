@@ -661,6 +661,10 @@ textarea:focus-visible {
   align-self: flex-start;
 }
 
+.stay-policies__title {
+  margin: 0 0 0.25rem;
+}
+
 /* Benefits */
 .benefits-box {
   max-width: 48rem;
@@ -824,6 +828,10 @@ textarea:focus-visible {
   border: 1.5px solid var(--color-text);
   background: rgba(217, 155, 119, 0.14);
   box-shadow: var(--shadow-soft);
+}
+
+.info-panel.stay-policies {
+  margin-top: 2.75rem;
 }
 
 .info-panel ul {
