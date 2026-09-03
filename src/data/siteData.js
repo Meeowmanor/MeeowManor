@@ -45,10 +45,10 @@ export const stayPlans = [
     id: 'private-stay',
     icon: '🌟',
     name: 'Private Stay',
-    description: 'Isolated Room',
+    description: 'Isolated Tent',
     price: '₹649',
     unit: 'per Night',
-    benefit: 'Quiet, private space for cats who prefer their own room',
+    benefit: 'Quiet, private space for cats who prefer their own Tent',
     featured: false,
   },
   {
@@ -242,6 +242,7 @@ export const specialBreedCare = {
     '👀 Eye and face cleaning, if required',
     '🍗 Premium meal upgrade',
     '💖 Extra cuddle time and grooming attention',
+    '💊 Medication/special medical care: ₹50 per day',
   ],
   closing: 'Because every fluffy baby deserves a little extra pampering.',
 }
