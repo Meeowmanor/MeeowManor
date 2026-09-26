@@ -12,7 +12,6 @@ function StayPlans({ onSelectPlan }) {
           title="Stay Plans"
           subtitle="Choose the stay that suits your cat’s comfort and routine."
         />
-        <p className="stay-price-notice">{stayPolicies.effectiveFrom}</p>
         <div className="pricing-grid">
           {stayPlans.map((plan) => (
             <PricingCard

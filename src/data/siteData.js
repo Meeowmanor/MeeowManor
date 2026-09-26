@@ -74,7 +74,6 @@ export const stayPlans = [
 ]
 
 export const stayPolicies = {
-  effectiveFrom: 'These prices are effective from 15th September.',
   discountsTitle: 'Long Stay Discounts',
   discounts: [
     '🐾 10+ day stay — 5% discount',
